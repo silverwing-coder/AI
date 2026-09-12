@@ -1,0 +1,8 @@
+.env
+.env.local
+config.json
+config.js
+config.py
+.venv
+__pycache__
+*.docss
