@@ -3,6 +3,10 @@
 config.json
 config.js
 config.py
+settings.json
 .venv
 __pycache__
-*.docss
+.vscode
+.idea
+*.csv
+*.dat
