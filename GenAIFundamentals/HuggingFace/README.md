@@ -29,7 +29,7 @@ load_dotenv()
 
 ``` py
 """ High-level pipeline() loads the model into 32-bits precision (FP32) 
-which forces 4-billion parameter model to consume nearly 16 GB of memory. 
+    which forces 4-billion parameter model to consume nearly 16 GB of memory. 
     We need explicitly pass down quantization and data-type arguments 
     to the underlying model config within the pipeline 
     $ pip install bitsandbytes accelerate    
