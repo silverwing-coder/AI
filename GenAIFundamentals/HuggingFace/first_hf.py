@@ -10,7 +10,7 @@ downloaded model files are saved to ~/.cache//huggingface/hub/
 from dotenv import load_dotenv
 load_dotenv()
 
-from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+from transformers import pipeline, BitsAndBytesConfig
 
 import torch
 
@@ -27,9 +27,7 @@ text = "Three people were dead at the scene and another was taken to a hospital 
 The helicopter crash occurred after two people were killed and others were injured in a crash between a Los Angeles Metro bus and a passenger vehicle on Nordhoff Street, according to the fire department.It said that the bus crash happened at 5:03 p.m. and that firefighters worked to free the trapped people and assess the bus passengers."
 
 # summarization task became obsolete -> use text-generation
-
 model_id = "Qwen/Qwen3-4B-Instruct-2507"
-
 
 """ High-level pipeline() loads the model into 32-bitn precision (FP32) which forces
     4-billion parameter model to consume nearly 16 GB of memory. 
