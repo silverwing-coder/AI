@@ -1,6 +1,10 @@
 .env
 .env.local
+<<<<<<< HEAD
 *.env
+=======
+#.env
+>>>>>>> afd6115 (Huggingface update)
 config.json
 config.js
 config.py
