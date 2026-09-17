@@ -29,10 +29,10 @@ The helicopter crash occurred after two people were killed and others were injur
 # summarization task became obsolete -> use text-generation
 model_id = "Qwen/Qwen3-4B-Instruct-2507"
 
-""" High-level pipeline() loads the model into 32-bitn precision (FP32) which forces
-    4-billion parameter model to consume nearly 16 GB of memory. 
-    Wd need explicitly pass down quantization and data-type arguments to the underlying 
-    model config within the pipeline 
+""" High-level pipeline() loads the model into 32-bits precision (FP32) 
+    which forces 4-billion parameter model to consume nearly 16 GB of memory. 
+    We need explicitly pass down quantization and data-type arguments 
+    to the underlying model config within the pipeline 
     $ pip install bitsandbytes accelerate    
 """
 
