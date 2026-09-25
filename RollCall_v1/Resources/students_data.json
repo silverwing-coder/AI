@@ -1,0 +1,58 @@
+
+{
+    "001006": {
+        "name": "Sangmork Park",
+        "major": "Computer Science",
+        "starting_year": 2020,
+        "total_attendance": 5,
+        "standing": "G",
+        "year": 4,
+        "last_attendance": "12/11/2022 08:30:45"
+    },
+
+    "001005": {
+        "name": "Taylor Swift",
+        "major": "Modern Music",
+        "starting_year": 2020,
+        "total_attendance": 7,
+        "standing": "G",
+        "year": 2,
+        "last_attendance": "12/11/2022 08:15:45"
+    },
+    "001004": {
+        "name": "Lisa Pink",
+        "major": "Modern Music",
+        "starting_year": 2021,
+        "total_attendance": 6,
+        "standing": "G",
+        "year": 2,
+        "last_attendance": "12/11/2022 08:15:45"
+    },
+    "001003": {
+        "name": "Jisoo Pink",
+        "major": "Kpop Music",
+        "starting_year": 2021,
+        "total_attendance": 6,
+        "standing": "G",
+        "year": 2,
+        "last_attendance": "12/11/2022 08:15:45"
+    },
+    "001002": {
+        "name": "Rose Pink",
+        "major": "Kpop Music",
+        "starting_year": 2022,
+        "total_attendance": 5,
+        "standing": "G",
+        "year": 1,
+        "last_attendance": "12/11/2022 08:15:45"
+    },
+    "001001": {
+        "name": "Jennie Pink",
+        "major": "Kpop Music",
+        "starting_year": 2022,
+        "total_attendance": 5,
+        "standing": "G",
+        "year": 1,
+        "last_attendance": "12/11/2022 08:15:45"
+    }
+}
