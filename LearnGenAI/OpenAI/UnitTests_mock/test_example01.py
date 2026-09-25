@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from codes_testing01 import charge_card
+from LearnGenAI.OpenAI.UnitTests_mock.codes_testing01 import charge_card
 
 class TestChargeCard(unittest.TestCase):
     @patch('codes_testing01.requests.post')
