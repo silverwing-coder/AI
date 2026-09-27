@@ -1,5 +1,8 @@
+<h4>Edited by Sangmork Park at VMI, Last update: Sep. 2026 </h4>
+
+---
+
 <h2>Reference repository for AI and ML applications implementation</h2>
-<h4>/** Edited by Sangmork Park at VMI, Last update: Sep. 2026 </h4>
 
 This repository is designed to be a resource for the students and novice researchers entering the domains of AI and ML.
 The applications provided in this repository functioned effectively at the time of their development, however, some of them outdated due to the rapid advancement of theories and technologies. 

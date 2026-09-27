@@ -7,7 +7,7 @@ $ pip install python-dotenv
 downloaded model files are saved to ~/.cache//huggingface/hub/
 """
 
-# This code is to  
+# This code is to deliver ACESS TOKEN
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -18,4 +18,4 @@ model = GPT2Model.from_pretrained('gpt2')
 text = "Explain about GPT2 Tokenizer."
 encoded_input = tokenizer(text, return_tensors='pt')
 output = model(**encoded_input)
-print(output)
+print(output[0])
