@@ -21,11 +21,21 @@ $ pip install -r requirements.txt
 
 ``` py
 '''
-# token delivery setup
+# Local machine token delivery setup
 1. Generate token from hugging face: Settings -> Access tokens -> Create new Access Token ....
 2. Copy and save the token in .env file: XX_TOKEN="your-token"
 
 '''
 from dotenv import load_dotenv
 load_dotenv()
+```
+
+```py
+'''
+# Google colab token delivery setup
+1. Generate token from hugging face: Settings -> Access tokens -> Create new Access Token ....
+'''
+fimport os
+from google.colab import userdata
+userdata.get('HF_TOKEN')
 ```
